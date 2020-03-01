@@ -2,6 +2,15 @@
 # Spring Cloud : Limits-Service
  
 ** Demonstrates reading properties from application.properties **
+** Uses Springboot 2.2.4.RELEASE **
+** Limits Service Port 8080 **
+
+
+```
+* Multiple instances of Limit Service can load the config changes from spring
+* cloud config server rather than changing and bundling in each server
+
+```
 
 ** Configuration **
 
